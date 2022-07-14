@@ -37,6 +37,7 @@ const main = () => {
     
     wordSortDistant = outputList.sort((a,b) => (a.distance > b.distance ? -1 : 1))[0];
     console.log( "Resultado: ", wordSortDistant);
+    //
 
 }    
 

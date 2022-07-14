@@ -33,6 +33,7 @@ function distanceBetweenWords (array) {
 distanceBetweenWords(textArray);
 
 console.log(outputList)
-
+//sort outputlist 
 wordSortDistant = outputList.sort((a,b) => (a.distance > b.distance ? -1 : 1))[0];
 console.log(wordSortDistant);
+// expectation: { word: 'policía', distance: 10 }
